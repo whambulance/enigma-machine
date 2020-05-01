@@ -1,0 +1,20 @@
+{
+    "cogs": {
+        "#": ["abcdefghijklmnopqrstuvwxyz", []],
+        "1": ["ekmflgdqvzntowyhxuspaibrcj", ["q"]],
+        "2": ["ajdksiruxblhwtmcqgznpyfvoe", ["e"]],
+        "3": ["bdfhjlcprtxvznyeiwgakmusqo", ["v"]],
+        "4": ["esovpzjayquirhxlnftgkdcmwb", ["j"]],
+        "5": ["vzbrgityupsdnhlxawmjqofeck", ["z"]],
+        "6": ["jpgvoumfyqbenhzrdkasxlictw", ["z", "m"]],
+        "7": ["nzjhgrcxmyswboufaivlpekqdt", ["z", "m"]],
+        "8": ["fkqhtlxocbjspdzramewniuygv", ["z", "m"]]
+    },
+    "reflectors": {
+        "b":  "yruhqsldpxngokmiebfzcwvjat",
+        "c":  "fvpjiaoyedrzxwgctkuqsbnmhl",
+        "bthin": "enkqauywjicopblmdxzvfthrgs",
+        "cthin": "rdobjntkvehmlfcwzaxgyipsuq"
+    },
+    "plugboard": "in be aq sd xp gz ck mr wy jv"
+}
