@@ -92,18 +92,18 @@ export default class Enigma{
   }
 
   advanceRotor() {
-    var step = ''
+    var step = '';
     for (const i in this.rotorsteps[1]) {
       step = this.alpha.indexOf(this.rotorsteps[1][i])
       if (this.rotorpos[1] == step) {
-        this.rotorpos[1] = this.b25add(this.rotorpos[1], 1)
-        this.rotorpos[0] = this.b25add(this.rotorpos[0], 1)
+        this.rotorpos[1] = this.b25add(this.rotorpos[1], 1);
+        this.rotorpos[0] = this.b25add(this.rotorpos[0], 1);
       }
     }
     for (const i in this.rotorsteps[2]) {
-      step = this.alpha.indexOf(this.rotorsteps[2][i])
+      step = this.alpha.indexOf(this.rotorsteps[2][i]);
       if (this.rotorpos[2] == step) {
-        this.rotorpos[1] = this.b25add(this.rotorpos[1], 1)
+        this.rotorpos[1] = this.b25add(this.rotorpos[1], 1);
       }
     }
     this.rotorpos[2] = this.b25add(this.rotorpos[2], 1);
@@ -114,7 +114,7 @@ export default class Enigma{
   }
 
   calcRotor(input, rotornum, firstpass) {
-    var endvar = ~this.rotorpos[rotornum] + 1
+    var endvar = ~this.rotorpos[rotornum] + 1;
     if (firstpass) {
       return this.b25add(this.alpha.indexOf(this.rotors[rotornum][this.b25add(input, this.rotorpos[rotornum])]), endvar);
     } else {
