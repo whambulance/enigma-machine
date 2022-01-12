@@ -1,2 +1,4 @@
 .vscode
 enigma.code-workspace
+/lib
+node_modules
