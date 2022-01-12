@@ -1,0 +1,19 @@
+{
+    "alpha": "abcdefghijklmnopqrstuvwxyz",
+    "rotors": [
+        { "name": "I",    "rotor": "ekmflgdqvzntowyhxuspaibrcj", "steps": ["q"]      },
+        { "name": "II",   "rotor": "ajdksiruxblhwtmcqgznpyfvoe", "steps": ["e"]      },
+        { "name": "III",  "rotor": "bdfhjlcprtxvznyeiwgakmusqo", "steps": ["v"]      },
+        { "name": "IV",   "rotor": "esovpzjayquirhxlnftgkdcmwb", "steps": ["j"]      },
+        { "name": "V",    "rotor": "vzbrgityupsdnhlxawmjqofeck", "steps": ["z"]      },
+        { "name": "VI",   "rotor": "jpgvoumfyqbenhzrdkasxlictw", "steps": ["z", "m"] },
+        { "name": "VII",  "rotor": "nzjhgrcxmyswboufaivlpekqdt", "steps": ["z", "m"] },
+        { "name": "VIII", "rotor": "fkqhtlxocbjspdzramewniuygv", "steps": ["z", "m"] }
+    ],
+    "reflectors": [
+        { "name": "UKWB",      "reflector": "yruhqsldpxngokmiebfzcwvjat" },
+        { "name": "UKWC",      "reflector": "fvpjiaoyedrzxwgctkuqsbnmhl" },
+        { "name": "UKWB-thin", "reflector": "enkqauywjicopblmdxzvfthrgs" },
+        { "name": "UKWC-thin", "reflector": "rdobjntkvehmlfcwzaxgyipsuq" }
+    ]
+}
