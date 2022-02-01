@@ -33,7 +33,6 @@ export default class Enigma {
   solve(input: string): string {
     let output = '';
 
-    // for (var i = 0; i < input.length; i++) {
     for (let letter of input) {
       letter = letter.toLowerCase();
 
